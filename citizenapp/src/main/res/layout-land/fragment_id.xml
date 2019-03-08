@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/viewMargin_16"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/idLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:style="@style/CardView">
+
+        <TextView
+            android:id="@+id/headerTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/idScreenHeader"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+            android:textColor="@color/primaryColor"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guidelineLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="@dimen/keyLineSize" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guidelineRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="@dimen/keyLineSize" />
+
+        <ImageView
+            android:id="@+id/logoThumbnail"
+            android:layout_width="@dimen/logoThumbnailSize"
+            android:layout_height="@dimen/logoThumbnailSize"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/logoThumbnailDescription"
+            android:src="@drawable/ic_fingerprint"
+            app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/viewMargin_8"
+            android:text="@string/idScreenHeaderTagLine"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/primaryColor"
+            app:layout_constraintStart_toEndOf="@+id/logoThumbnail"
+            app:layout_constraintTop_toTopOf="@+id/logoThumbnail"
+            tools:text="Mobile ID" />
+
+        <View
+            android:id="@+id/headerDivider"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dividerThickness"
+            android:layout_marginTop="@dimen/viewMargin_8"
+            android:background="@color/primaryColor"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+            app:layout_constraintTop_toBottomOf="@+id/logoThumbnail" />
+
+        <ImageView
+            android:id="@+id/passportPhoto"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:contentDescription="@string/photographDescription"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="h,3:4"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineRight"
+            app:layout_constraintStart_toEndOf="@+id/barrier4"
+            app:layout_constraintTop_toBottomOf="@+id/headerDivider"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/idLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/surnameLabel"
+            app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+            app:layout_constraintTop_toBottomOf="@+id/idNumberTxt" />
+
+        <TextView
+            android:id="@+id/surnameTxt"
+            style="@style/idContentValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:text="Hamed" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/idLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/viewMargin_8"
+            android:text="@string/firstNameLabel"
+            app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+            app:layout_constraintTop_toBottomOf="@+id/surnameTxt" />
+
+        <TextView
+            android:id="@+id/firstNameTxt"
+            style="@style/idContentValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            tools:text="Ademola" />
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/idLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/viewMargin_8"
+            android:text="@string/otherNamesLabel"
+            app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+            app:layout_constraintTop_toBottomOf="@+id/firstNameTxt" />
+
+        <TextView
+            android:id="@+id/otherNamesTxt"
+            style="@style/idContentValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            tools:text="Emeka" />
+
+        <TextView
+            android:id="@+id/textView10"
+            style="@style/idLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/dateOfBirthLabel"
+            app:layout_constraintStart_toEndOf="@+id/barrier3"
+            app:layout_constraintTop_toBottomOf="@+id/headerDivider" />
+
+        <TextView
+            android:id="@+id/dateOfBirthTxt"
+            style="@style/idContentValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintStart_toStartOf="@+id/textView10"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            tools:text="01 May 2018" />
+
+        <TextView
+            android:id="@+id/textView12"
+            style="@style/idLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/nationalityLabel"
+            app:layout_constraintStart_toStartOf="@+id/dateOfBirthTxt"
+            app:layout_constraintTop_toBottomOf="@+id/dateOfBirthTxt" />
+
+        <TextView
+            android:id="@+id/nationalityTxt"
+            style="@style/idContentValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintStart_toStartOf="@+id/textView12"
+            app:layout_constraintTop_toBottomOf="@+id/textView12"
+            tools:text="Nigerian" />
+
+        <TextView
+            android:id="@+id/textView14"
+            style="@style/idLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/viewMargin_8"
+            android:text="@string/issueDateLabel"
+            app:layout_constraintStart_toStartOf="@+id/nationalityTxt"
+            app:layout_constraintTop_toBottomOf="@+id/nationalityTxt" />
+
+        <TextView
+            android:id="@+id/issueDateTxt"
+            style="@style/idContentValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/textView14"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            tools:text="01 May 2018" />
+
+        <TextView
+            android:id="@+id/textView16"
+            style="@style/idLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/viewMargin_8"
+            android:text="@string/expiryDateLabel"
+            app:layout_constraintStart_toStartOf="@+id/issueDateTxt"
+            app:layout_constraintTop_toBottomOf="@+id/issueDateTxt" />
+
+        <TextView
+            android:id="@+id/expiryDateTxt"
+            style="@style/idContentValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView16"
+            tools:text="30 May 2019" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/idLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/id_fragment_id_number_label"
+
+            app:layout_constraintStart_toStartOf="@+id/guidelineLeft"
+            app:layout_constraintTop_toBottomOf="@+id/headerDivider" />
+
+        <TextView
+            android:id="@+id/idNumberTxt"
+            style="@style/idContentValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            tools:text="111111111111111" />
+
+        <android.support.constraint.Barrier
+            android:id="@+id/barrier3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="end"
+            app:constraint_referenced_ids="idNumberTxt,surnameTxt,firstNameTxt,otherNamesTxt" />
+
+        <android.support.constraint.Barrier
+            android:id="@+id/barrier4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="end"
+            app:constraint_referenced_ids="dateOfBirthTxt,issueDateTxt,expiryDateTxt"
+ />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

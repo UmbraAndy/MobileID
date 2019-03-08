@@ -1,0 +1,68 @@
+<resources>
+
+
+    <string name="navBarHeaderThumbnailDescription">Photo thumbnail</string>
+    <string name="fingerprintLabel">Fingerprint</string>
+    <string name="documentsLabel">Documents</string>
+    <string name="app_name">MobileID</string>
+    <string name="idHint">ID number</string>
+    <string-array name="fingerprintPositions">
+        <item>Two thumbs</item>
+        <item>Right four fingers</item>
+        <item>Left four fingers</item>
+    </string-array>
+    <string-array name="allowedLegalDocuments">
+        <item>Drivers licence</item>
+        <item>Passport</item>
+        <item>Court affidavit</item>
+        <item>Voters card</item>
+        <item>Resident permit</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="modificationRequestTitle">Modification Request</string>
+    <string name="registrationCenterTitle">Registration Centers</string>
+    <string name="qrCodeTitle">ID QR-code</string>
+    <string name="shareIdTitle">Share ID</string>
+    <string name="mobileIdTitle">Mobile ID</string>
+    <string name="accessibility_open_nav">Navigation bar open</string>
+    <string name="fetching_id_data_message">Fetching ID data ....</string>
+    <string name="signing_in_message">Signing in ....</string>
+    <string name="id_number_label">ID number:</string>
+    <string name="signInMessage">Sign in</string>
+    <string name="companyLogoDescription">Mobile Identity logo</string>
+    <string name="alreadySignedUpMessage">Already signed up?</string>
+    <string name="signUpButtonText">Sign up</string>
+    <string name="idScreenHeader">Federal Government of Nigeria</string>
+    <string name="logoThumbnailDescription">Identity authority small logo</string>
+    <string name="idScreenHeaderTagLine">Mobile ID</string>
+    <string name="photographDescription">Passport phototgraph</string>
+    <string name="id_fragment_id_number_label">ID Number</string>
+    <string name="surnameLabel">Surname</string>
+    <string name="firstNameLabel">First name</string>
+    <string name="otherNamesLabel">Other names</string>
+    <string name="dateOfBirthLabel">Date of birth</string>
+    <string name="nationalityLabel">Nationality</string>
+    <string name="issueDateLabel">Issued date</string>
+    <string name="expiryDateLabel">Expiry date</string>
+    <string name="signInButtonText">SIgn in</string>
+    <string name="notSignedUpMessage">Not signed up?</string>
+    <string name="signUpMessage">Sign up</string>
+    <string name="pinHint">Enter PIN number</string>
+    <string name="pairedDeviceLabel">Paired devices</string>
+    <string name="availableDeviceLabel">Available devices</string>
+    <string name="qrCodeDescription">Identity data Qr code</string>
+    <string name="showMobileIdMenuLabel">Show Mobile ID</string>
+    <string name="requestForModificationMenuLabel">Request for modification</string>
+    <string name="displayQrCodeMenuLabel">Show QR code</string>
+    <string name="sendIdToDeviceMenuLabel">Send Mobile ID to device</string>
+    <string name="registrationCenterMenuLabel">Registration centers</string>
+    <string name="signOutMenuLabel">Sign out</string>
+    <string name="notAvailable">N/A</string>
+    <string name="removeBtnLbl">Remove</string>
+    <string name="modificationSubmitLbl">Submit</string>
+    <string name="capture_document_description">Capture document</string>
+    <string name="capture_fingerprint_description">Capture fingerprint</string>
+    <string name="clearBtnLbl">Clear</string>
+
+</resources>

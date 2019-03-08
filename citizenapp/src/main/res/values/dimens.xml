@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="signCardMargin">16dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">0dp</dimen>
+    <dimen name="viewMargin_56">56dp</dimen>
+    <dimen name="actionBarHeight">48dp</dimen>
+    <dimen name="viewMargin_16">16dp</dimen>
+    <dimen name="keyLineSize">16dp</dimen>
+    <dimen name="logoThumbnailSize">24dp</dimen>
+    <dimen name="dividerThickness">2dp</dimen>
+    <dimen name="recyclerViewItemHeight">52dp</dimen>
+    <dimen name="viewMargin_32">32dp</dimen>
+    <dimen name="logoSize">120dp</dimen>
+    <dimen name="passportHeight">120dp</dimen>
+    <dimen name="passportWidth">84dp</dimen>
+    <dimen name="cardKeyLineSize">32dp</dimen>
+    <dimen name="viewMargin_8">8dp</dimen>
+    <dimen name="viewMargin_4">4dp</dimen>
+    <dimen name="borderSidePadding">16dp</dimen>
+    <dimen name="borderTopBottomPadding">16dp</dimen>
+    <dimen name="inputTextBorderThickness">2dp</dimen>
+    <dimen name="roundedViewBorderRadius">360dp</dimen>
+    <dimen name="widgetSize">180dp</dimen>
+</resources>

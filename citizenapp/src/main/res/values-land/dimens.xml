@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018.  citizenapp project
+  ~
+  -->
+
+<resources>
+    <dimen name="logoSize">80dp</dimen>
+    <dimen name="passportHeight">100dp</dimen>
+    <dimen name="passportWidth">80dp</dimen>
+</resources>

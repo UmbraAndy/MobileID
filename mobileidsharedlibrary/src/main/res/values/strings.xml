@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MobileID</string>
+    <string name="idHint">ID number</string>
+</resources>

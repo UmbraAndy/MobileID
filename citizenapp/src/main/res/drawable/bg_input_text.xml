@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018.  citizenapp project
+  ~
+  -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item  android:top="@dimen/viewMargin_4"
+        >
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/inputTextBorderThickness"
+                android:color="@color/primaryColor"/>
+            <corners android:radius="@dimen/roundedViewBorderRadius"/>
+            <padding
+                android:left="@dimen/borderSidePadding"
+                android:top="@dimen/borderTopBottomPadding"
+                android:right="@dimen/borderSidePadding"
+                android:bottom="@dimen/borderTopBottomPadding"    >
+            </padding>
+        </shape>
+    </item>
+</layer-list>
